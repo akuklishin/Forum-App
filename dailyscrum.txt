@@ -1,0 +1,160 @@
+[2023-04-04]
+
+    - Aleksejs
+
+        DONE: Sorting routes
+        DONE: Search route
+        DO: Populate DB with data
+
+    - Lucas
+
+        DONE: Style 'Vote' component
+        CONTINUE: Style Search Results page
+        DO: Finish global style
+
+
+
+[2023-04-03]
+
+    - Aleksejs
+
+        DONE: Comment 'Vote' component
+        DO: Sorting Routes
+        DO: Search Route
+
+    - Lucas
+
+        DONE: Post 'Vote' component
+        DO: Style 'Vote' component
+        DO: Style Sorted pages
+        DO: Style Search Results page
+
+
+
+[2023-04-02]
+
+    - Aleksejs
+
+        DONE: Adding/deleting comments
+        DONE: Adding/deleting post
+        DO: Comment 'Vote' component
+
+    - Lucas
+
+        DONE: User Posts template
+        DONE: Subforum template
+        CONTINUE: Post 'Vote' component
+
+
+
+[2023-04-01]
+
+    - Aleksejs
+
+        DONE: Create post backend
+        DONE: My Posts, Subforums routes
+        DO: Adding/deleting comments
+        DO: Adding/deleting post
+
+    - Lucas
+
+        DONE: Login/registration templates
+        DONE: Sidebar backend
+        CONTINUE: 'Vote' component (toggle button) frontend
+
+
+
+[2023-03-31]
+
+    ISSUE: shared web hosting incompatible with our Laravel setup (requires a server that can perform npm install/npm run or php artisan server)
+
+    - Aleksejs
+
+        DONE: Login / Register (finalized)
+        CONTINUE: Create post Setup
+
+    - Lucas
+
+        DONE: Show post frontend template
+        DONE: Create post frontend template
+        DO: Login/registration templates
+        DO: 'Vote' component (toggle button) frontend
+
+
+
+[2023-03-30]
+
+    - Aleksejs
+
+        DONE: Registration with Breeze
+        CONTINUE: Login with Breeze
+        DO: Post page Setup
+
+    - Lucas
+
+        DONE: Index frontend style
+        CONTINUE: Upload project to web hosting
+        CONTINUE: Show post frontend style
+
+
+
+[2023-03-29]
+
+    - Aleksejs
+
+        DONE: Index page Setup
+        DONE: Show post page Setup
+        DO: Login/registration with Breeze
+
+    - Lucas
+
+        DONE: Design common Blade templates elements (head/nav/footer/sidebar)
+        DO: Upload project to web hosting
+        DO: Index frontend
+        DO: Show post frontend
+
+
+
+[2023-03-28]
+
+    - Aleksejs
+
+        DONE: Laravel crash course
+        DONE: Setup 'blank' app with Laravel
+        CONTINUE: User registration backend
+
+    - Lucas
+
+        DONE: Laravel crash course
+        DONE: Setup 'blank' app with Laravel
+        DO: Design common Blade templates elements (head/nav/footer/sidebar)
+
+
+
+[2023-03-27]
+
+    ISSUE: Safe redirections with Laravel redirect() OK?
+    ISSUE: Tables creation automated with Laravel migration OR Manual .sql import?
+
+    - Aleksejs
+
+        CONTINUE: Laravel crash course
+        DO: Setup 'blank' app with Laravel
+        DO: User registration backend
+
+    - Lucas
+
+        CONTINUE: Laravel crash course
+        DO: Setup 'blank' app with Laravel
+
+
+
+[2023-03-24]
+
+    - Aleksejs
+
+        DO: Learn Laravel for the weekend
+
+    - Lucas
+
+        DO: Learn Laravel for the weekend

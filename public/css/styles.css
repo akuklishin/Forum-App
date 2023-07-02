@@ -1,0 +1,56 @@
+a { text-decoration: none; }
+
+.navbar-brand { letter-spacing: 3px; }
+.navbar-brand::before { content: '// '; opacity: .15; }
+
+#popular-subforums { position: relative; }
+#popular-subforums::after {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    bottom: 0;
+    content: '';
+    height: 80%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#search-text::after { content: ' ”'; }
+#search-text::before { content: '“ '; }
+
+#search-text::after,
+#search-text::before { opacity: .25; }
+
+/* works with public/js/animated-gradient.js */
+.animated-gradient-js {
+    animation: gradient 3s ease-in-out infinite;
+    background-image: linear-gradient(var(--angle), var(--start-color), var(--end-color));
+    background-size: 200%;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* works with public/js/like-button.js */
+#like-button,
+#comment-like-button {
+    color: hsl(0, 0%, 85%);
+    transform: scale(1);
+    transition: all 0.25s;
+}
+
+#like-button:hover,
+#comment-like-button:hover {
+    color:hsl(220, 100%, 81%);
+}
+
+#like-button[data-like="true"],
+#comment-like-button[data-like="true"] {
+    color: hsl(220, 100%, 60%);
+    transform: scale(1.15);
+}
